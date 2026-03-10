@@ -11,4 +11,3 @@ CREATE TABLE Items (
 	price NUMERIC,
 	FOREIGN KEY (orderId) REFERENCES Orders(orderId)
 );
-
